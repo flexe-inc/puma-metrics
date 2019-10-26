@@ -20,7 +20,7 @@ module Puma
       end
 
       def parse
-        @parser.parse(JSON.parse(Puma.stats)
+        @parser.parse(JSON.parse(Puma.stats))
       end
     end
   end
